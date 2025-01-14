@@ -57,7 +57,13 @@ const Blog = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 hover:text-blue-600 transition">
-                  {post.title}
+                  <a 
+                    href={`https://azeemdevjournal.blogspot.com/2025/01/building-scalable-react-applications.html`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {post.title}
+                  </a>
                 </h3>
                 <p className="text-gray-600 mb-4">{post.excerpt}</p>
                 <div className="flex items-center text-sm text-gray-500">
